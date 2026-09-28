@@ -1,6 +1,6 @@
 {
-  "name": "@informalsystems/quint",
-  "version": "0.32.0",
+  "name": "@rocodesign/quint",
+  "version": "0.32.0-rocodesign.1",
   "description": "Core tool for the Quint specification language",
   "keywords": [
     "temporal",
@@ -28,7 +28,7 @@
     }
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "dist/src/index.js",
   "typings": "dist/src/index",
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/informalsystems/quint"
+    "url": "https://github.com/rocodesign/quint"
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.11.1",
